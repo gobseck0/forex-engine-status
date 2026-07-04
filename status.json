@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-04T20:15:49.370367+00:00",
+  "timestamp": "2026-07-04T20:19:26.995756+00:00",
   "version": "2.0",
   "n_alertas": 1,
   "alertas": [
-    "WHW sin registros en 5630.3 min"
+    "WHW sin registros en 5633.9 min"
   ],
   "trades": {
     "n": 181,
@@ -15,6 +15,16 @@
     "abiertos": 0,
     "cerrado_aprox_0": 0,
     "pnl_acum_pct": -15.641
+  },
+  "otros_cierres": {
+    "MANUAL": {
+      "n": 12,
+      "pnl_pct": 0.519
+    },
+    "NUNCA_EJECUTADO": {
+      "n": 4,
+      "pnl_pct": 0.0
+    }
   },
   "por_estrategia": {
     "FMRA": {
@@ -44,7 +54,7 @@
   "whw": {
     "total": 25681,
     "ultimo_registro": "2026-06-30 22:25:32+00:00",
-    "mins_desde_ultimo": 5630.3,
+    "mins_desde_ultimo": 5633.9,
     "r_35m": 0,
     "r_1h": 0,
     "r_24h": 0,
