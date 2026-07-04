@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-07-04T20:15:49.370367+00:00",
+  "version": "2.0",
+  "n_alertas": 1,
+  "alertas": [
+    "WHW sin registros en 5630.3 min"
+  ],
+  "trades": {
+    "n": 181,
+    "wr_pct": 27.6,
+    "pf": 0.57,
+    "pips": -359.0,
+    "pnl_pct": -16.16,
+    "total_log": 197,
+    "abiertos": 0,
+    "cerrado_aprox_0": 0,
+    "pnl_acum_pct": -15.641
+  },
+  "por_estrategia": {
+    "FMRA": {
+      "n": 172,
+      "wr_pct": 27.9,
+      "pf": 0.56,
+      "pips": -360.6,
+      "pnl_pct": -16.227
+    },
+    "FSBO": {
+      "n": 9,
+      "wr_pct": 22.2,
+      "pf": 1.14,
+      "pips": 1.6,
+      "pnl_pct": 0.066
+    },
+    "CFMA": {
+      "n": 0
+    }
+  },
+  "posiciones_abiertas": [],
+  "hoy": {
+    "trades": 0,
+    "pnl_pct": 0.0,
+    "abiertos": 0
+  },
+  "whw": {
+    "total": 25681,
+    "ultimo_registro": "2026-06-30 22:25:32+00:00",
+    "mins_desde_ultimo": 5630.3,
+    "r_35m": 0,
+    "r_1h": 0,
+    "r_24h": 0,
+    "estado": "ALERTA",
+    "por_estrategia": {
+      "FMRA": {
+        "n_24h": 0,
+        "filtro_dominante": "sin_datos"
+      },
+      "FSBO": {
+        "n_24h": 0,
+        "filtro_dominante": "sin_datos"
+      },
+      "CFMA": {
+        "n_24h": 0,
+        "filtro_dominante": "sin_datos"
+      }
+    },
+    "dir_correcta_4h_pct": 49.1
+  },
+  "rf": {
+    "auc": 0.649,
+    "fecha": "2026-07-03 13:54",
+    "n_registros": 3825,
+    "n_blocked": 3644,
+    "n_ejecutados": 181,
+    "activo": true,
+    "horas_sin_reentrenar": 24.4,
+    "estado": "OK",
+    "top_features": [
+      {
+        "feature": "adx",
+        "importancia": 0.1651
+      },
+      {
+        "feature": "hora_utc",
+        "importancia": 0.135
+      },
+      {
+        "feature": "posicion_rango_dia",
+        "importancia": 0.0595
+      }
+    ]
+  },
+  "regimen": {
+    "sesiones": {
+      "Tokyo": {
+        "modo": "NORMAL",
+        "wr_rolling": 0.375,
+        "señal_regimen": 0.56,
+        "whw_incorrecto": 0.462,
+        "fuente_señal": "combinada (eje=0.62, whw=0.46)",
+        "n_ventana": 8,
+        "ventana_max": 8
+      },
+      "Sydney": {
+        "modo": "NORMAL",
+        "wr_rolling": 0.625,
+        "señal_regimen": 0.412,
+        "whw_incorrecto": 0.467,
+        "fuente_señal": "combinada (eje=0.38, whw=0.47)",
+        "n_ventana": 8,
+        "ventana_max": 8
+      },
+      "London": {
+        "modo": "NORMAL",
+        "wr_rolling": 0.143,
+        "señal_regimen": 0.667,
+        "whw_incorrecto": 0.382,
+        "fuente_señal": "combinada (eje=0.86, whw=0.38)",
+        "n_ventana": 21,
+        "ventana_max": 21
+      },
+      "NewYork": {
+        "modo": "NORMAL",
+        "wr_rolling": 0.4,
+        "n_ventana": 5
+      }
+    },
+    "ultima_eval": "2026-07-01 12:01 UTC",
+    "cambios": [
+      {
+        "ts": "2026-06-29 14:00 UTC",
+        "sesion": "London",
+        "modo_antes": "NORMAL",
+        "modo_nuevo": "INVERTIDO",
+        "wr_rolling": 0.333,
+        "n_trades": 18
+      },
+      {
+        "ts": "2026-06-30 21:20 UTC",
+        "sesion": "London",
+        "modo_antes": "NORMAL",
+        "modo_nuevo": "INVERTIDO",
+        "wr_rolling": 0.143,
+        "señal_regimen": 0.716,
+        "whw_incorrecto": 0.504,
+        "n_trades": 21
+      },
+      {
+        "ts": "2026-06-30 22:00 UTC",
+        "sesion": "Sydney",
+        "modo_antes": "INVERTIDO",
+        "modo_nuevo": "NORMAL",
+        "wr_rolling": 0.625,
+        "n_trades": 8
+      }
+    ]
+  },
+  "engine_log": [
+    "2026-07-03 15:18:13 UTC | INFO | [21:18 UTC] Mercado cerrado — esperando apertura",
+    "2026-07-03 15:19:13 UTC | INFO | [21:19 UTC] Mercado cerrado — esperando apertura",
+    "2026-07-03 15:19:37 UTC | INFO | Señal de cierre recibida — deteniendo engine...",
+    "2026-07-03 15:20:13 UTC | INFO | Cerrando engine...",
+    "2026-07-03 15:20:13 UTC | INFO | Engine detenido limpiamente."
+  ]
+}
