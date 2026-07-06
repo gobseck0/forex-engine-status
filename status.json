@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-06T06:11:12.981326+00:00",
+  "timestamp": "2026-07-06T06:42:58.329670+00:00",
   "version": "2.0",
   "n_alertas": 2,
   "alertas": [
-    "8 CERRADO_APROX con P&L $0",
-    "RF sin reentrenar hace 58.3h"
+    "11 CERRADO_APROX con P&L $0",
+    "RF sin reentrenar hace 58.8h"
   ],
   "trades": {
     "n": 189,
@@ -12,9 +12,9 @@
     "pf": 0.54,
     "pips": -396.8,
     "pnl_pct": -18.01,
-    "total_log": 212,
+    "total_log": 215,
     "abiertos": 2,
-    "cerrado_aprox_0": 8,
+    "cerrado_aprox_0": 11,
     "pnl_acum_pct": -17.491
   },
   "otros_cierres": {
@@ -48,16 +48,16 @@
   },
   "posiciones_abiertas": [
     {
-      "par": "EUR/CAD",
-      "estrategia": "FSBO",
+      "par": "USD/JPY",
+      "estrategia": "FMRA",
       "direccion": "SHORT",
       "sesion": "Tokyo",
       "mov_pct": 0.0,
       "pnl_pct": 0.0
     },
     {
-      "par": "USD/JPY",
-      "estrategia": "FMRA",
+      "par": "EUR/CAD",
+      "estrategia": "FSBO",
       "direccion": "SHORT",
       "sesion": "Tokyo",
       "mov_pct": 0.0,
@@ -65,21 +65,21 @@
     }
   ],
   "hoy": {
-    "trades": 18,
+    "trades": 21,
     "pnl_pct": -1.849,
     "abiertos": 2
   },
   "whw": {
-    "total": 26462,
-    "ultimo_registro": "2026-07-06 06:08:04+00:00",
-    "mins_desde_ultimo": 3.1,
-    "r_35m": 83,
-    "r_1h": 103,
-    "r_24h": 781,
+    "total": 26511,
+    "ultimo_registro": "2026-07-06 06:39:43+00:00",
+    "mins_desde_ultimo": 3.3,
+    "r_35m": 50,
+    "r_1h": 105,
+    "r_24h": 830,
     "estado": "OK",
     "por_estrategia": {
       "FMRA": {
-        "n_24h": 155,
+        "n_24h": 177,
         "filtro_dominante": "precio_en_rango"
       },
       "FSBO": {
@@ -100,7 +100,7 @@
     "n_blocked": 3644,
     "n_ejecutados": 181,
     "activo": true,
-    "horas_sin_reentrenar": 58.3,
+    "horas_sin_reentrenar": 58.8,
     "estado": "ALERTA",
     "top_features": [
       {
@@ -183,10 +183,10 @@
     ]
   },
   "engine_log": [
-    "2026-07-06 00:00:44 UTC | INFO | Estado | iter=140 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 00:01:47 UTC | INFO | Trade abierto: EUR/CAD | SHORT | ticket=39102652",
-    "2026-07-06 00:02:53 UTC | INFO | Trade FMRA: AUD/JPY | SHORT | ticket=39102671",
-    "2026-07-06 00:06:01 UTC | INFO | Trade FMRA: USD/JPY | SHORT | ticket=39102834",
-    "2026-07-06 00:11:12 UTC | INFO | Estado | iter=150 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00"
+    "2026-07-06 00:19:38 UTC | INFO | Trade FMRA: USD/JPY | SHORT | ticket=39103281",
+    "2026-07-06 00:21:46 UTC | INFO | Trade abierto: EUR/CAD | SHORT | ticket=39103349",
+    "2026-07-06 00:21:47 UTC | INFO | Estado | iter=160 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 00:32:21 UTC | INFO | Estado | iter=170 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 00:42:58 UTC | INFO | Estado | iter=180 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00"
   ]
 }
