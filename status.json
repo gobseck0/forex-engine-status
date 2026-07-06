@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-06T12:41:33.621140+00:00",
+  "timestamp": "2026-07-06T13:12:10.560388+00:00",
   "version": "2.0",
   "n_alertas": 1,
   "alertas": [
-    "25 CERRADO_APROX con P&L $0"
+    "27 CERRADO_APROX con P&L $0"
   ],
   "trades": {
     "n": 191,
@@ -11,9 +11,9 @@
     "pf": 0.46,
     "pips": -559.9,
     "pnl_pct": -18.028,
-    "total_log": 231,
-    "abiertos": 2,
-    "cerrado_aprox_0": 25,
+    "total_log": 234,
+    "abiertos": 3,
+    "cerrado_aprox_0": 27,
     "pnl_acum_pct": -17.509
   },
   "otros_cierres": {
@@ -47,7 +47,7 @@
   },
   "posiciones_abiertas": [
     {
-      "par": "CAD/JPY",
+      "par": "GBP/CHF",
       "estrategia": "FSBO",
       "direccion": "LONG",
       "sesion": "London",
@@ -55,26 +55,34 @@
       "pnl_pct": 0.0
     },
     {
-      "par": "EUR/CHF",
+      "par": "AUD/USD",
       "estrategia": "FSBO",
-      "direccion": "LONG",
+      "direccion": "SHORT",
+      "sesion": "London",
+      "mov_pct": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "par": "CAD/JPY",
+      "estrategia": "FSBO",
+      "direccion": "SHORT",
       "sesion": "London",
       "mov_pct": 0.0,
       "pnl_pct": 0.0
     }
   ],
   "hoy": {
-    "trades": 37,
+    "trades": 40,
     "pnl_pct": -1.868,
-    "abiertos": 2
+    "abiertos": 3
   },
   "whw": {
-    "total": 26937,
-    "ultimo_registro": "2026-07-06 12:41:33+00:00",
-    "mins_desde_ultimo": 0.0,
-    "r_35m": 90,
-    "r_1h": 90,
-    "r_24h": 1256,
+    "total": 26997,
+    "ultimo_registro": "2026-07-06 13:01:02+00:00",
+    "mins_desde_ultimo": 11.1,
+    "r_35m": 65,
+    "r_1h": 150,
+    "r_24h": 1316,
     "estado": "OK",
     "por_estrategia": {
       "FMRA": {
@@ -82,11 +90,11 @@
         "filtro_dominante": "precio_en_rango"
       },
       "FSBO": {
-        "n_24h": 321,
+        "n_24h": 355,
         "filtro_dominante": "sin_momentum"
       },
       "CFMA": {
-        "n_24h": 378,
+        "n_24h": 404,
         "filtro_dominante": "fuera_zona_media"
       }
     },
@@ -99,7 +107,7 @@
     "n_blocked": 3644,
     "n_ejecutados": 201,
     "activo": true,
-    "horas_sin_reentrenar": 4.7,
+    "horas_sin_reentrenar": 5.2,
     "estado": "OK",
     "top_features": [
       {
@@ -182,10 +190,10 @@
     ]
   },
   "engine_log": [
-    "2026-07-06 06:27:17 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
-    "2026-07-06 06:28:17 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
-    "2026-07-06 06:29:18 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
-    "2026-07-06 06:31:25 UTC | INFO | Estado | iter=260 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 06:41:33 UTC | INFO | Estado | iter=270 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00"
+    "2026-07-06 06:51:48 UTC | INFO | Estado | iter=280 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 07:01:00 UTC | INFO | Trade abierto: AUD/USD | SHORT | ticket=39118493",
+    "2026-07-06 07:01:00 UTC | INFO | Trade abierto: CAD/JPY | SHORT | ticket=39118495",
+    "2026-07-06 07:02:03 UTC | INFO | Estado | iter=290 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 07:12:10 UTC | INFO | Estado | iter=300 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00"
   ]
 }
