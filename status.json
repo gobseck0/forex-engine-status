@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-06T11:40:48.742117+00:00",
+  "timestamp": "2026-07-06T12:11:13.229473+00:00",
   "version": "2.0",
   "n_alertas": 1,
   "alertas": [
-    "23 CERRADO_APROX con P&L $0"
+    "25 CERRADO_APROX con P&L $0"
   ],
   "trades": {
     "n": 191,
@@ -11,9 +11,9 @@
     "pf": 0.46,
     "pips": -559.9,
     "pnl_pct": -18.028,
-    "total_log": 230,
-    "abiertos": 3,
-    "cerrado_aprox_0": 23,
+    "total_log": 231,
+    "abiertos": 2,
+    "cerrado_aprox_0": 25,
     "pnl_acum_pct": -17.509
   },
   "otros_cierres": {
@@ -47,7 +47,7 @@
   },
   "posiciones_abiertas": [
     {
-      "par": "GBP/CHF",
+      "par": "CAD/JPY",
       "estrategia": "FSBO",
       "direccion": "LONG",
       "sesion": "London",
@@ -55,15 +55,7 @@
       "pnl_pct": 0.0
     },
     {
-      "par": "EUR/USD",
-      "estrategia": "FSBO",
-      "direccion": "SHORT",
-      "sesion": "London",
-      "mov_pct": 0.0,
-      "pnl_pct": 0.0
-    },
-    {
-      "par": "CAD/JPY",
+      "par": "EUR/CHF",
       "estrategia": "FSBO",
       "direccion": "LONG",
       "sesion": "London",
@@ -72,16 +64,16 @@
     }
   ],
   "hoy": {
-    "trades": 36,
+    "trades": 37,
     "pnl_pct": -1.868,
-    "abiertos": 3
+    "abiertos": 2
   },
   "whw": {
     "total": 26847,
     "ultimo_registro": "2026-07-06 11:39:47+00:00",
-    "mins_desde_ultimo": 1.0,
-    "r_35m": 27,
-    "r_1h": 78,
+    "mins_desde_ultimo": 31.4,
+    "r_35m": 1,
+    "r_1h": 27,
     "r_24h": 1166,
     "estado": "OK",
     "por_estrategia": {
@@ -107,7 +99,7 @@
     "n_blocked": 3644,
     "n_ejecutados": 201,
     "activo": true,
-    "horas_sin_reentrenar": 3.7,
+    "horas_sin_reentrenar": 4.2,
     "estado": "OK",
     "top_features": [
       {
@@ -190,10 +182,10 @@
     ]
   },
   "engine_log": [
-    "2026-07-06 05:00:19 UTC | INFO | Estado | iter=170 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 05:10:25 UTC | INFO | Estado | iter=180 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 05:20:32 UTC | INFO | Estado | iter=190 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 05:30:41 UTC | INFO | Estado | iter=200 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 05:40:48 UTC | INFO | Estado | iter=210 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00"
+    "2026-07-06 06:08:12 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
+    "2026-07-06 06:09:12 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
+    "2026-07-06 06:10:12 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
+    "2026-07-06 06:11:12 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
+    "2026-07-06 06:11:13 UTC | INFO | Estado | iter=240 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00"
   ]
 }
