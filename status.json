@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T16:46:46.668007+00:00",
+  "timestamp": "2026-07-06T17:17:18.575859+00:00",
   "version": "2.0",
   "n_alertas": 1,
   "alertas": [
@@ -69,12 +69,12 @@
     "abiertos": 2
   },
   "whw": {
-    "total": 27277,
-    "ultimo_registro": "2026-07-06 16:30:34+00:00",
+    "total": 27331,
+    "ultimo_registro": "2026-07-06 17:01:04+00:00",
     "mins_desde_ultimo": 16.2,
-    "r_35m": 27,
-    "r_1h": 88,
-    "r_24h": 1596,
+    "r_35m": 54,
+    "r_1h": 81,
+    "r_24h": 1650,
     "estado": "OK",
     "por_estrategia": {
       "FMRA": {
@@ -82,11 +82,11 @@
         "filtro_dominante": "precio_en_rango"
       },
       "FSBO": {
-        "n_24h": 446,
+        "n_24h": 473,
         "filtro_dominante": "sin_momentum"
       },
       "CFMA": {
-        "n_24h": 485,
+        "n_24h": 512,
         "filtro_dominante": "fuera_zona_media"
       }
     },
@@ -94,25 +94,25 @@
   },
   "rf": {
     "auc": 0,
-    "fecha": "2026-07-06 10:12",
-    "n_registros": 3886,
+    "fecha": "2026-07-06 11:11",
+    "n_registros": 3887,
     "n_blocked": 3644,
-    "n_ejecutados": 242,
+    "n_ejecutados": 243,
     "activo": true,
-    "horas_sin_reentrenar": 0.6,
+    "horas_sin_reentrenar": 0.1,
     "estado": "OK",
     "top_features": [
       {
         "feature": "adx",
-        "importancia": 0.1515
+        "importancia": 0.1533
       },
       {
         "feature": "hora_utc",
-        "importancia": 0.128
+        "importancia": 0.1355
       },
       {
-        "feature": "sl_pips",
-        "importancia": 0.064
+        "feature": "distancia_bb_pct",
+        "importancia": 0.0621
       }
     ]
   },
@@ -182,10 +182,10 @@
     ]
   },
   "engine_log": [
-    "2026-07-06 10:06:11 UTC | INFO | Estado | iter=470 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 10:16:18 UTC | INFO | Estado | iter=480 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 10:26:29 UTC | INFO | Estado | iter=490 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
     "2026-07-06 10:36:39 UTC | INFO | Estado | iter=500 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 10:46:46 UTC | INFO | Estado | iter=510 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00"
+    "2026-07-06 10:46:46 UTC | INFO | Estado | iter=510 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 10:56:56 UTC | INFO | Estado | iter=520 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 11:07:09 UTC | INFO | Estado | iter=530 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 11:17:18 UTC | INFO | Estado | iter=540 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00"
   ]
 }
