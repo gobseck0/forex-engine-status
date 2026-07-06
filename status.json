@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-06T16:16:18.869365+00:00",
+  "timestamp": "2026-07-06T16:46:46.668007+00:00",
   "version": "2.0",
   "n_alertas": 1,
   "alertas": [
-    "37 CERRADO_APROX con P&L $0"
+    "38 CERRADO_APROX con P&L $0"
   ],
   "trades": {
     "n": 193,
@@ -12,8 +12,8 @@
     "pips": -494.0,
     "pnl_pct": -18.486,
     "total_log": 246,
-    "abiertos": 3,
-    "cerrado_aprox_0": 37,
+    "abiertos": 2,
+    "cerrado_aprox_0": 38,
     "pnl_acum_pct": -17.966
   },
   "otros_cierres": {
@@ -55,14 +55,6 @@
       "pnl_pct": 0.0
     },
     {
-      "par": "AUD/NZD",
-      "estrategia": "FSBO",
-      "direccion": "LONG",
-      "sesion": "London",
-      "mov_pct": 0.0,
-      "pnl_pct": 0.0
-    },
-    {
       "par": "EUR/CHF",
       "estrategia": "FSBO",
       "direccion": "LONG",
@@ -74,19 +66,19 @@
   "hoy": {
     "trades": 52,
     "pnl_pct": -2.325,
-    "abiertos": 3
+    "abiertos": 2
   },
   "whw": {
-    "total": 27250,
-    "ultimo_registro": "2026-07-06 16:01:08+00:00",
-    "mins_desde_ultimo": 15.2,
-    "r_35m": 63,
-    "r_1h": 100,
-    "r_24h": 1569,
+    "total": 27277,
+    "ultimo_registro": "2026-07-06 16:30:34+00:00",
+    "mins_desde_ultimo": 16.2,
+    "r_35m": 27,
+    "r_1h": 88,
+    "r_24h": 1596,
     "estado": "OK",
     "por_estrategia": {
       "FMRA": {
-        "n_24h": 422,
+        "n_24h": 449,
         "filtro_dominante": "precio_en_rango"
       },
       "FSBO": {
@@ -107,7 +99,7 @@
     "n_blocked": 3644,
     "n_ejecutados": 242,
     "activo": true,
-    "horas_sin_reentrenar": 0.1,
+    "horas_sin_reentrenar": 0.6,
     "estado": "OK",
     "top_features": [
       {
@@ -190,10 +182,10 @@
     ]
   },
   "engine_log": [
-    "2026-07-06 09:45:46 UTC | INFO | Estado | iter=450 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 09:48:53 UTC | INFO | Trade abierto: EUR/CHF | LONG | ticket=39130009",
-    "2026-07-06 09:56:00 UTC | INFO | Estado | iter=460 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
     "2026-07-06 10:06:11 UTC | INFO | Estado | iter=470 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 10:16:18 UTC | INFO | Estado | iter=480 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00"
+    "2026-07-06 10:16:18 UTC | INFO | Estado | iter=480 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 10:26:29 UTC | INFO | Estado | iter=490 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 10:36:39 UTC | INFO | Estado | iter=500 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 10:46:46 UTC | INFO | Estado | iter=510 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00"
   ]
 }
