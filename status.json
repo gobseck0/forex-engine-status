@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-07-06T14:13:22.208489+00:00",
+  "timestamp": "2026-07-06T14:44:02.245993+00:00",
   "version": "2.0",
   "n_alertas": 1,
   "alertas": [
     "32 CERRADO_APROX con P&L $0"
   ],
   "trades": {
-    "n": 192,
-    "wr_pct": 26.6,
-    "pf": 0.45,
-    "pips": -583.4,
-    "pnl_pct": -18.334,
-    "total_log": 240,
+    "n": 193,
+    "wr_pct": 26.9,
+    "pf": 0.53,
+    "pips": -494.0,
+    "pnl_pct": -18.486,
+    "total_log": 241,
     "abiertos": 3,
     "cerrado_aprox_0": 32,
-    "pnl_acum_pct": -17.815
+    "pnl_acum_pct": -17.966
   },
   "otros_cierres": {
     "MANUAL": {
@@ -35,11 +35,11 @@
       "pnl_pct": -17.784
     },
     "FSBO": {
-      "n": 13,
-      "wr_pct": 15.4,
-      "pf": 0.06,
-      "pips": -191.1,
-      "pnl_pct": -0.55
+      "n": 14,
+      "wr_pct": 21.4,
+      "pf": 0.5,
+      "pips": -101.7,
+      "pnl_pct": -0.702
     },
     "CFMA": {
       "n": 0
@@ -55,16 +55,16 @@
       "pnl_pct": 0.0
     },
     {
-      "par": "CHF/JPY",
-      "estrategia": "FSBO",
+      "par": "EUR/CAD",
+      "estrategia": "CFMA",
       "direccion": "SHORT",
       "sesion": "London",
       "mov_pct": 0.0,
       "pnl_pct": 0.0
     },
     {
-      "par": "EUR/CAD",
-      "estrategia": "CFMA",
+      "par": "CHF/JPY",
+      "estrategia": "FSBO",
       "direccion": "SHORT",
       "sesion": "London",
       "mov_pct": 0.0,
@@ -72,21 +72,21 @@
     }
   ],
   "hoy": {
-    "trades": 46,
-    "pnl_pct": -2.174,
+    "trades": 47,
+    "pnl_pct": -2.325,
     "abiertos": 3
   },
   "whw": {
-    "total": 27074,
-    "ultimo_registro": "2026-07-06 14:00:05+00:00",
-    "mins_desde_ultimo": 13.3,
-    "r_35m": 50,
+    "total": 27101,
+    "ultimo_registro": "2026-07-06 14:30:41+00:00",
+    "mins_desde_ultimo": 13.4,
+    "r_35m": 27,
     "r_1h": 77,
-    "r_24h": 1393,
+    "r_24h": 1420,
     "estado": "OK",
     "por_estrategia": {
       "FMRA": {
-        "n_24h": 368,
+        "n_24h": 395,
         "filtro_dominante": "precio_en_rango"
       },
       "FSBO": {
@@ -107,7 +107,7 @@
     "n_blocked": 3644,
     "n_ejecutados": 201,
     "activo": true,
-    "horas_sin_reentrenar": 6.2,
+    "horas_sin_reentrenar": 6.7,
     "estado": "OK",
     "top_features": [
       {
@@ -190,10 +190,10 @@
     ]
   },
   "engine_log": [
-    "2026-07-06 07:52:56 UTC | INFO | Estado | iter=340 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 08:03:07 UTC | INFO | Estado | iter=350 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 08:08:11 UTC | INFO | Trade abierto: CHF/JPY | SHORT | ticket=39123305",
-    "2026-07-06 08:09:16 UTC | INFO | Trade CFMA: EUR/CAD | SHORT | ticket=39123372",
-    "2026-07-06 08:13:22 UTC | INFO | Estado | iter=360 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00"
+    "2026-07-06 08:13:22 UTC | INFO | Estado | iter=360 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 08:23:31 UTC | INFO | Estado | iter=370 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 08:33:46 UTC | INFO | Estado | iter=380 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 08:35:51 UTC | INFO | Trade abierto: CHF/JPY | SHORT | ticket=39125096",
+    "2026-07-06 08:44:02 UTC | INFO | Estado | iter=390 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00"
   ]
 }
