@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T15:15:03.249174+00:00",
+  "timestamp": "2026-07-06T15:45:46.375755+00:00",
   "version": "2.0",
   "n_alertas": 1,
   "alertas": [
@@ -77,20 +77,20 @@
     "abiertos": 3
   },
   "whw": {
-    "total": 27150,
-    "ultimo_registro": "2026-07-06 15:11:58+00:00",
-    "mins_desde_ultimo": 3.1,
-    "r_35m": 49,
-    "r_1h": 76,
-    "r_24h": 1469,
+    "total": 27189,
+    "ultimo_registro": "2026-07-06 15:45:46+00:00",
+    "mins_desde_ultimo": 0.0,
+    "r_35m": 40,
+    "r_1h": 88,
+    "r_24h": 1508,
     "estado": "OK",
     "por_estrategia": {
       "FMRA": {
-        "n_24h": 395,
+        "n_24h": 422,
         "filtro_dominante": "precio_en_rango"
       },
       "FSBO": {
-        "n_24h": 400,
+        "n_24h": 412,
         "filtro_dominante": "sin_momentum"
       },
       "CFMA": {
@@ -107,7 +107,7 @@
     "n_blocked": 3644,
     "n_ejecutados": 201,
     "activo": true,
-    "horas_sin_reentrenar": 7.3,
+    "horas_sin_reentrenar": 7.8,
     "estado": "OK",
     "top_features": [
       {
@@ -190,10 +190,10 @@
     ]
   },
   "engine_log": [
-    "2026-07-06 08:58:29 UTC | INFO | Trade abierto: CHF/JPY | SHORT | ticket=39126707",
-    "2026-07-06 09:02:40 UTC | INFO | Trade abierto: GBP/USD | LONG | ticket=39126957",
-    "2026-07-06 09:03:43 UTC | INFO | Trade abierto: AUD/NZD | LONG | ticket=39127019",
     "2026-07-06 09:04:44 UTC | INFO | Estado | iter=410 | posiciones=4 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 09:15:03 UTC | INFO | Estado | iter=420 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00"
+    "2026-07-06 09:15:03 UTC | INFO | Estado | iter=420 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 09:25:17 UTC | INFO | Estado | iter=430 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 09:35:33 UTC | INFO | Estado | iter=440 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 09:45:46 UTC | INFO | Estado | iter=450 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00"
   ]
 }
