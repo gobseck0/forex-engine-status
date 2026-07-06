@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T17:17:18.575859+00:00",
+  "timestamp": "2026-07-06T17:47:47.360685+00:00",
   "version": "2.0",
   "n_alertas": 1,
   "alertas": [
@@ -69,16 +69,16 @@
     "abiertos": 2
   },
   "whw": {
-    "total": 27331,
-    "ultimo_registro": "2026-07-06 17:01:04+00:00",
-    "mins_desde_ultimo": 16.2,
-    "r_35m": 54,
+    "total": 27358,
+    "ultimo_registro": "2026-07-06 17:30:33+00:00",
+    "mins_desde_ultimo": 17.2,
+    "r_35m": 27,
     "r_1h": 81,
-    "r_24h": 1650,
+    "r_24h": 1677,
     "estado": "OK",
     "por_estrategia": {
       "FMRA": {
-        "n_24h": 449,
+        "n_24h": 476,
         "filtro_dominante": "precio_en_rango"
       },
       "FSBO": {
@@ -94,25 +94,25 @@
   },
   "rf": {
     "auc": 0,
-    "fecha": "2026-07-06 11:11",
+    "fecha": "2026-07-06 11:21",
     "n_registros": 3887,
     "n_blocked": 3644,
     "n_ejecutados": 243,
     "activo": true,
-    "horas_sin_reentrenar": 0.1,
+    "horas_sin_reentrenar": 0.4,
     "estado": "OK",
     "top_features": [
       {
         "feature": "adx",
-        "importancia": 0.1533
+        "importancia": 0.1478
       },
       {
         "feature": "hora_utc",
-        "importancia": 0.1355
+        "importancia": 0.1304
       },
       {
-        "feature": "distancia_bb_pct",
-        "importancia": 0.0621
+        "feature": "h_valor",
+        "importancia": 0.0603
       }
     ]
   },
@@ -182,10 +182,10 @@
     ]
   },
   "engine_log": [
-    "2026-07-06 10:36:39 UTC | INFO | Estado | iter=500 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 10:46:46 UTC | INFO | Estado | iter=510 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 10:56:56 UTC | INFO | Estado | iter=520 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
     "2026-07-06 11:07:09 UTC | INFO | Estado | iter=530 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 11:17:18 UTC | INFO | Estado | iter=540 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00"
+    "2026-07-06 11:17:18 UTC | INFO | Estado | iter=540 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 11:27:28 UTC | INFO | Estado | iter=550 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 11:37:39 UTC | INFO | Estado | iter=560 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 11:47:47 UTC | INFO | Estado | iter=570 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00"
   ]
 }
