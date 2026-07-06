@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T12:11:13.229473+00:00",
+  "timestamp": "2026-07-06T12:41:33.621140+00:00",
   "version": "2.0",
   "n_alertas": 1,
   "alertas": [
@@ -69,24 +69,24 @@
     "abiertos": 2
   },
   "whw": {
-    "total": 26847,
-    "ultimo_registro": "2026-07-06 11:39:47+00:00",
-    "mins_desde_ultimo": 31.4,
-    "r_35m": 1,
-    "r_1h": 27,
-    "r_24h": 1166,
+    "total": 26937,
+    "ultimo_registro": "2026-07-06 12:41:33+00:00",
+    "mins_desde_ultimo": 0.0,
+    "r_35m": 90,
+    "r_1h": 90,
+    "r_24h": 1256,
     "estado": "OK",
     "por_estrategia": {
       "FMRA": {
-        "n_24h": 314,
+        "n_24h": 341,
         "filtro_dominante": "precio_en_rango"
       },
       "FSBO": {
-        "n_24h": 285,
+        "n_24h": 321,
         "filtro_dominante": "sin_momentum"
       },
       "CFMA": {
-        "n_24h": 351,
+        "n_24h": 378,
         "filtro_dominante": "fuera_zona_media"
       }
     },
@@ -99,7 +99,7 @@
     "n_blocked": 3644,
     "n_ejecutados": 201,
     "activo": true,
-    "horas_sin_reentrenar": 4.2,
+    "horas_sin_reentrenar": 4.7,
     "estado": "OK",
     "top_features": [
       {
@@ -182,10 +182,10 @@
     ]
   },
   "engine_log": [
-    "2026-07-06 06:08:12 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
-    "2026-07-06 06:09:12 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
-    "2026-07-06 06:10:12 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
-    "2026-07-06 06:11:12 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
-    "2026-07-06 06:11:13 UTC | INFO | Estado | iter=240 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00"
+    "2026-07-06 06:27:17 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
+    "2026-07-06 06:28:17 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
+    "2026-07-06 06:29:18 UTC | WARNING | Zona de riesgo: Apertura_NY_spread — no abrir nuevas posiciones",
+    "2026-07-06 06:31:25 UTC | INFO | Estado | iter=260 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 06:41:33 UTC | INFO | Estado | iter=270 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00"
   ]
 }
