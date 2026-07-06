@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-07-06T04:07:18.895261+00:00",
+  "timestamp": "2026-07-06T04:38:02.790885+00:00",
   "version": "2.0",
   "n_alertas": 1,
   "alertas": [
-    "RF sin reentrenar hace 56.2h"
+    "RF sin reentrenar hace 56.7h"
   ],
   "trades": {
-    "n": 188,
-    "wr_pct": 27.1,
-    "pf": 0.55,
-    "pips": -390.7,
-    "pnl_pct": -17.718,
-    "total_log": 207,
+    "n": 189,
+    "wr_pct": 27.0,
+    "pf": 0.54,
+    "pips": -396.8,
+    "pnl_pct": -18.01,
+    "total_log": 205,
     "abiertos": 3,
     "cerrado_aprox_0": 0,
-    "pnl_acum_pct": -17.198
+    "pnl_acum_pct": -17.491
   },
   "otros_cierres": {
     "MANUAL": {
@@ -22,7 +22,7 @@
       "pnl_pct": 0.519
     },
     "NUNCA_EJECUTADO": {
-      "n": 4,
+      "n": 1,
       "pnl_pct": 0.0
     }
   },
@@ -35,11 +35,11 @@
       "pnl_pct": -17.784
     },
     "FSBO": {
-      "n": 9,
-      "wr_pct": 22.2,
-      "pf": 1.14,
-      "pips": 1.6,
-      "pnl_pct": 0.066
+      "n": 10,
+      "wr_pct": 20.0,
+      "pf": 0.74,
+      "pips": -4.5,
+      "pnl_pct": -0.226
     },
     "CFMA": {
       "n": 0
@@ -72,21 +72,21 @@
     }
   ],
   "hoy": {
-    "trades": 10,
-    "pnl_pct": -1.558,
+    "trades": 11,
+    "pnl_pct": -1.849,
     "abiertos": 3
   },
   "whw": {
-    "total": 26261,
-    "ultimo_registro": "2026-07-06 04:00:12+00:00",
-    "mins_desde_ultimo": 7.1,
-    "r_35m": 160,
-    "r_1h": 263,
-    "r_24h": 580,
+    "total": 26312,
+    "ultimo_registro": "2026-07-06 04:38:00+00:00",
+    "mins_desde_ultimo": 0.0,
+    "r_35m": 51,
+    "r_1h": 111,
+    "r_24h": 631,
     "estado": "OK",
     "por_estrategia": {
       "FMRA": {
-        "n_24h": 105,
+        "n_24h": 129,
         "filtro_dominante": "precio_en_rango"
       },
       "FSBO": {
@@ -107,7 +107,7 @@
     "n_blocked": 3644,
     "n_ejecutados": 181,
     "activo": true,
-    "horas_sin_reentrenar": 56.2,
+    "horas_sin_reentrenar": 56.7,
     "estado": "ALERTA",
     "top_features": [
       {
@@ -190,10 +190,10 @@
     ]
   },
   "engine_log": [
-    "2026-07-05 21:37:18 UTC | INFO | Trade FMRA: EUR/NZD | SHORT | ticket=39097626",
-    "2026-07-05 21:46:41 UTC | INFO | Estado | iter=10 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-05 21:57:02 UTC | INFO | Estado | iter=20 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-05 22:00:10 UTC | INFO | Trade abierto: AUD/CAD | SHORT | ticket=39098211",
-    "2026-07-05 22:07:18 UTC | INFO | Estado | iter=30 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00"
+    "2026-07-05 22:07:18 UTC | INFO | Estado | iter=30 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-05 22:17:30 UTC | INFO | Estado | iter=40 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-05 22:23:38 UTC | INFO | Trade abierto: AUD/CAD | SHORT | ticket=39098802",
+    "2026-07-05 22:27:43 UTC | INFO | Estado | iter=50 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-05 22:38:02 UTC | INFO | Estado | iter=60 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00"
   ]
 }
