@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T11:10:25.503901+00:00",
+  "timestamp": "2026-07-06T11:40:48.742117+00:00",
   "version": "2.0",
   "n_alertas": 1,
   "alertas": [
@@ -77,16 +77,16 @@
     "abiertos": 3
   },
   "whw": {
-    "total": 26820,
-    "ultimo_registro": "2026-07-06 11:00:19+00:00",
-    "mins_desde_ultimo": 10.1,
-    "r_35m": 51,
-    "r_1h": 77,
-    "r_24h": 1139,
+    "total": 26847,
+    "ultimo_registro": "2026-07-06 11:39:47+00:00",
+    "mins_desde_ultimo": 1.0,
+    "r_35m": 27,
+    "r_1h": 78,
+    "r_24h": 1166,
     "estado": "OK",
     "por_estrategia": {
       "FMRA": {
-        "n_24h": 287,
+        "n_24h": 314,
         "filtro_dominante": "precio_en_rango"
       },
       "FSBO": {
@@ -107,7 +107,7 @@
     "n_blocked": 3644,
     "n_ejecutados": 201,
     "activo": true,
-    "horas_sin_reentrenar": 3.2,
+    "horas_sin_reentrenar": 3.7,
     "estado": "OK",
     "top_features": [
       {
@@ -190,10 +190,10 @@
     ]
   },
   "engine_log": [
-    "2026-07-06 04:39:57 UTC | INFO | Estado | iter=150 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 04:50:07 UTC | INFO | Estado | iter=160 | posiciones=2 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 05:00:17 UTC | INFO | Trade abierto: CAD/JPY | LONG | ticket=39113161",
     "2026-07-06 05:00:19 UTC | INFO | Estado | iter=170 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
-    "2026-07-06 05:10:25 UTC | INFO | Estado | iter=180 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00"
+    "2026-07-06 05:10:25 UTC | INFO | Estado | iter=180 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 05:20:32 UTC | INFO | Estado | iter=190 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 05:30:41 UTC | INFO | Estado | iter=200 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00",
+    "2026-07-06 05:40:48 UTC | INFO | Estado | iter=210 | posiciones=3 | pnl_dia FSBO=$0.00 CFMA=$0.00"
   ]
 }
